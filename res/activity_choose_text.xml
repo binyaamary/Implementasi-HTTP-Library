@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChooseTextActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="RETROFIT :"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TableRow>
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/rteks100"
+                android:text="100" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/rteks1000"
+                android:text="1.000" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/rteks10000"
+                android:text="10.000" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/rteks1000000"
+                android:text="50.000" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/rteks100000"
+                android:text="100.000" />
+        </TableRow>
+    </TableLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="VOLLEY :"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TableRow>
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/vteks100"
+                android:text="100" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/vteks1000"
+                android:text="1.000" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/vteks10000"
+                android:text="10.000" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/vteks1000000"
+                android:text="50.000" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/vteks100000"
+                android:text="100.000" />
+        </TableRow>
+    </TableLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="HTTPURLCONNECTION :"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TableRow>
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/hteks100"
+                android:text="100" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/hteks1000"
+                android:text="1.000" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/hteks10000"
+                android:text="10.000" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/hteks1000000"
+                android:text="50.000" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/hteks100000"
+                android:text="100.000" />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

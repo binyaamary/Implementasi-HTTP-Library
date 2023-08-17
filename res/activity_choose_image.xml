@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChooseImageActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="RETROFIT :"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TableRow>
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/rgambar10"
+                android:text="10" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/rgambar50"
+                android:text="50" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/rgambar100"
+                android:text="100" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/rgambar150"
+                android:text="150" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/rgambar200"
+                android:text="200" />
+        </TableRow>
+    </TableLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="VOLLEY :"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TableRow>
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/vgambar10"
+                android:text="10" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/vgambar50"
+                android:text="50" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/vgambar100"
+                android:text="100" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/vgambar150"
+                android:text="150" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/vgambar200"
+                android:text="200" />
+        </TableRow>
+    </TableLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="HTTPURLCONNETION :"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TableRow>
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/hgambar10"
+                android:text="10" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/hgambar50"
+                android:text="50" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/hgambar100"
+                android:text="100" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/hgambar150"
+                android:text="150" />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/hgambar200"
+                android:text="200" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
